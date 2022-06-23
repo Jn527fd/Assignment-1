@@ -1,23 +1,86 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Assignment 1: Jesus Naranjo</title>
-   </head>
-
-   <body>
-
-    <p>My name is: Jesus Naranjo</p>
-
-    <p>My Major is Computer Science</p>
-
-    <p>My IP address is: 130.64.35.22  </p>
-
-    <p>I grew up in Bakersfield,CA</p>
-
-    <p>Something no one would expect about me: I am fluent in spanish</p>
-
-    <p>My favorite place:</p>
-    <img src="morro_Bay.jpg" alt="Morro Bay" width="800" height="400">
-
-   </body>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D2W94KBJBM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D2W94KBJBM');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Personal website of Jesus Naranjo, a student at Tuft University">
+    <meta name="author" content="Jesus Naranjo">
+    <link rel="canonical" href="https://jesusnaranjo.com/">
+    <meta name="robots" content="index, follow"> 
+    <title>Jesus Naranjo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"> </script>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+   
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+    <meta name="google-site-verification" content="xSdplps0wXiomfK2M6v2rbyV-IbEJ0LGfr1zDBMtMNo" />
+</head>
+<body id="override">
+    <div id="landing" class="col-xs-4">
+        <!--<description> Sagnik Anupam </description>-->
+        <div id="me"><img src="images/me.jpg" alt="Picture of Jesus Naranjo"></div>
+        <div id="text">
+        <h1 class="p1"> Jesus G. <span id="blue">Naranjo</span></h1>
+        <ul id="social-ul">
+            <li> <a href="https://github.com/Jn527fd"> <img src="icons/Github-black.svg" alt="Link to Jesus Naranjo's Github Profile"> </a></li>
+            <li> <a href="https://www.linkedin.com/in/jesus-naranjo-b72b66209/"> <img src="icons/LinkedIn-black.svg" alt="Link to Jesus Naranjo's LinkedIn Profile"> </a></li>
+        </ul>
+        <p> <a href="index.html"> Home </a> | <a href="Sagnik_Anupam_Resume.pdf"> Resume </a> | <a href="publications.html"> Publications </a> | <a href="http://sagnikanupam.com/blog"> Blog </a> </p>
+        <p> Hi, I am an undergraduate student at (Tufts University <a href = ”https://www.tufts.edu”>, where I am majoring in Computer Science (coursework <a href="https://students.tufts.edu/sites/default/files/2026%20BSCS.pdf">here</a>). Currently, I work as an undergraduate researcher at the <a href="https://www.rle.mit.edu"> MIT Research Laboratory 
+          of Electronics</a> in the Speech Communication Group under Dr. Stefanie Shattuck-Hufnagel and Dr. Jeung-Yoon Elizabeth Choi on acoustic cue detection. <p>
+ 
+    Formerly, I have worked as a:
+    <ul>
+      <li> data analyst at <a href="http://sandbox.mit.edu"> MIT Sandbox</a>. </li>
+      <li> diligence associate at <a href="https://collegiate.vc/mit"> MIT Capital Partners</a> and a sourcing analyst at <a href="https://www.harvardcap.org">Harvard Undergraduate Capital Partners</a>, both branches of <a href="https://collegiate.vc">Collegiate Capital Partners</a>, a student-run early/growth-stage investment advisory firm. </li>
+      <li> member of the <a href="http://xfair.io"> xFair </a> and Dev Ops committees of <a href="https://techx.io">TechX</a>, a student-run organization dedicated to bringing cutting-edge technology and 
+      innovators to the MIT campus. </li>
+    </ul>
+    <p> You can find out about some cool things I did in the past <a href="past.html">here</a>.</p>
+    <p> I also run a blog-cum-newsletter called <a href="https://sagnikanupam.substack.com">Curated</a>, where I occasionally write about college life, literature, art, music, and languages. You can check out past issues <a href="http://sagnikanupam.com/blog">here</a> and subscribe <a href="https://sagnikanupam.substack.com">here</a>. </p>
+    <p> I'd love to hear from you if you wish to work with me or collaborate with any of the organizations that I am currently a member of, or if you have any feedback or comments about my writing. Otherwise, I request you to read this <a href="https://sagnikanupam.com/blog/2020/2020-10/faq/"> FAQ </a> before emailing me to check if your question has already been answered. Feel free to reach out to me via email at [sagnik] at [mit] dot [edu]. </p>
+    </div>
+    </div>
+</body>
 </html>
